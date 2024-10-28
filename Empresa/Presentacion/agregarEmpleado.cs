@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Empresa
@@ -19,6 +20,9 @@ namespace Empresa
         public agregarEmpleado(int? dni = null)
         {
             InitializeComponent();
+            txtNombre.KeyPress += new KeyPressEventHandler(txtNombre_KeyPress);
+            txtApellido.KeyPress += new KeyPressEventHandler(txtNombre_KeyPress);
+            txtTelefono.KeyPress += new KeyPressEventHandler(txtTelefono_KeyPress);
             this.FormClosing += Form1_FormClosing;
             this.dni = dni;
         }
@@ -26,6 +30,29 @@ namespace Empresa
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
+            {
+                e.Handled = true; 
+            }
+        }
+        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; 
+            }
         }
 
         private void agregarEmpleado_Load(object sender, EventArgs e)

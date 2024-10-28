@@ -46,7 +46,7 @@
             // txtCantidad
             // 
             txtCantidad.Location = new Point(99, 107);
-            txtCantidad.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
+            txtCantidad.Maximum = new decimal(new int[] { 1000000000, 0, 0, 0 });
             txtCantidad.Name = "txtCantidad";
             txtCantidad.Size = new Size(134, 27);
             txtCantidad.TabIndex = 1;

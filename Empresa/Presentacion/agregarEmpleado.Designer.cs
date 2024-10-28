@@ -53,21 +53,21 @@
             // 
             txtApellido.Location = new Point(354, 159);
             txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(125, 27);
+            txtApellido.Size = new Size(150, 27);
             txtApellido.TabIndex = 1;
             // 
             // txtNombre
             // 
             txtNombre.Location = new Point(354, 95);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(125, 27);
+            txtNombre.Size = new Size(150, 27);
             txtNombre.TabIndex = 2;
             // 
             // txtTelefono
             // 
             txtTelefono.Location = new Point(354, 272);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(125, 27);
+            txtTelefono.Size = new Size(150, 27);
             txtTelefono.TabIndex = 3;
             // 
             // txtPassword
@@ -75,19 +75,19 @@
             txtPassword.Location = new Point(354, 394);
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(125, 27);
+            txtPassword.Size = new Size(150, 27);
             txtPassword.TabIndex = 4;
             // 
             // txtUsuario
             // 
             txtUsuario.Location = new Point(354, 335);
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(125, 27);
+            txtUsuario.Size = new Size(150, 27);
             txtUsuario.TabIndex = 5;
             // 
             // dtFechaNac
             // 
-            dtFechaNac.Location = new Point(343, 219);
+            dtFechaNac.Location = new Point(354, 219);
             dtFechaNac.Name = "dtFechaNac";
             dtFechaNac.Size = new Size(303, 27);
             dtFechaNac.TabIndex = 6;
@@ -178,15 +178,15 @@
             // 
             cbRol.FormattingEnabled = true;
             cbRol.Items.AddRange(new object[] { "Admin", "Auditor", "Operador" });
-            cbRol.Location = new Point(343, 452);
+            cbRol.Location = new Point(354, 452);
             cbRol.Name = "cbRol";
-            cbRol.Size = new Size(151, 28);
+            cbRol.Size = new Size(150, 28);
             cbRol.TabIndex = 16;
             // 
             // txtDocumento
             // 
-            txtDocumento.Location = new Point(343, 34);
-            txtDocumento.Maximum = new decimal(new int[] { 1000000000, 0, 0, 0 });
+            txtDocumento.Location = new Point(354, 34);
+            txtDocumento.Maximum = new decimal(new int[] { 1410065408, 2, 0, 0 });
             txtDocumento.Name = "txtDocumento";
             txtDocumento.Size = new Size(150, 27);
             txtDocumento.TabIndex = 17;
