@@ -51,8 +51,8 @@ C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\ne
 C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.listaMovimientos.resources
 C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.Login.resources
 C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.Menu.resources
-C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.Properties.Resources.resources
 C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.ventaProducto.resources
+C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.Properties.Resources.resources
 C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.csproj.GenerateResource.cache
 C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\punta\source\repos\Empresa\ParcialProgramacion2024\Empresa\obj\Debug\net8.0-windows\Empresa.AssemblyInfoInputs.cache

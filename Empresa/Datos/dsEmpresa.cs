@@ -1,4 +1,8 @@
-﻿namespace Empresa
+﻿namespace Empresa.Datos
+{
+}
+
+namespace Empresa
 {
 }
 

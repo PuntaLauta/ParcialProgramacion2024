@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="abmEmpleados.cs">
+    <Compile Update="Presentacion\abmEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="agregarEmpleado.cs">
+    <Compile Update="Presentacion\agregarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="compraProductos.cs">
+    <Compile Update="Presentacion\compraProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="compraDetalle.cs">
+    <Compile Update="Presentacion\compraDetalle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="editarProducto.cs">
+    <Compile Update="Presentacion\editarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="listaMovimientos.cs">
+    <Compile Update="Presentacion\listaMovimientos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Login.cs">
+    <Compile Update="Presentacion\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Menu.cs">
+    <Compile Update="Presentacion\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ventaProducto.cs">
+    <Compile Update="Presentacion\ventaProducto.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Update="dsEmpresa.xsd">
+    <None Update="Datos\dsEmpresa.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

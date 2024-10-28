@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Empresa {
+namespace Empresa.Datos {
     
     
     /// <summary>
@@ -2612,7 +2612,7 @@ namespace Empresa {
         }
     }
 }
-namespace Empresa.dsEmpresaTableAdapters {
+namespace Empresa.Datos.dsEmpresaTableAdapters {
     
     
     /// <summary>

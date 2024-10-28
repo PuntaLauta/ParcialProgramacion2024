@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Empresa
+namespace Empresa.Negocio
 {
     public static class UserSettings
     {
         public static int rol { get; set; }
-        public static String nombre { get; set; }
-        public static String username { get; set; }
+        public static string nombre { get; set; }
+        public static string username { get; set; }
         public static bool estaLogeado { get; set; }
         public static int id { get; set; }
-        public static void Login(int nuevoRol, int nuevoId, String nuevoUsername, String nuevoNombre)
+        public static void Login(int nuevoRol, int nuevoId, string nuevoUsername, string nuevoNombre)
         {
             rol = nuevoRol;
             username = nuevoUsername;

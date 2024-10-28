@@ -1,4 +1,5 @@
-﻿using Empresa.dsEmpresaTableAdapters;
+﻿using Empresa.Datos;
+using Empresa.Datos.dsEmpresaTableAdapters;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
