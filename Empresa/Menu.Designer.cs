@@ -53,7 +53,7 @@
             btnEmpleados.Name = "btnEmpleados";
             btnEmpleados.Size = new Size(149, 69);
             btnEmpleados.TabIndex = 1;
-            btnEmpleados.Text = "AMB Empleados";
+            btnEmpleados.Text = "ABM Empleados";
             btnEmpleados.UseVisualStyleBackColor = true;
             btnEmpleados.Click += btnEmpleados_Click;
             // 

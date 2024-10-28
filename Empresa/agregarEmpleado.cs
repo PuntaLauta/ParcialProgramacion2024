@@ -18,7 +18,13 @@ namespace Empresa
         public agregarEmpleado(int? dni = null)
         {
             InitializeComponent();
+            this.FormClosing += Form1_FormClosing;
             this.dni = dni;
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void agregarEmpleado_Load(object sender, EventArgs e)

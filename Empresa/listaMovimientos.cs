@@ -16,8 +16,14 @@ namespace Empresa
         public listaMovimientos()
         {
             InitializeComponent();
+            this.FormClosing += Form1_FormClosing;
             Refresh();
         }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void Refresh()
         {
             ComprobantesEmitidosTableAdapter adapter = new ComprobantesEmitidosTableAdapter();

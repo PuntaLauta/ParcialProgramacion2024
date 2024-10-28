@@ -16,6 +16,7 @@ namespace Empresa
         public Menu(int? rol = null)
         {
             InitializeComponent();
+            this.FormClosing += Form1_FormClosing;
             this.rol = UserSettings.rol;
             switch (this.rol)
             {
@@ -33,6 +34,10 @@ namespace Empresa
             }
         }
 
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
             abmEmpleados abmEmpleados = new abmEmpleados();

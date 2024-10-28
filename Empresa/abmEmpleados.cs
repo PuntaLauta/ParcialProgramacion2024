@@ -17,7 +17,13 @@ namespace Empresa
         public abmEmpleados()
         {
             InitializeComponent();
+            this.FormClosing += Form1_FormClosing;
             refresh();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void refresh()

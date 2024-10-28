@@ -45,7 +45,7 @@ namespace Empresa
                 ComprobantesEmitidosTableAdapter adapterComp = new ComprobantesEmitidosTableAdapter();
                 adapter.updateStock(stockFinal, (int)codigo);
                 decimal monto = (stockNuevo * montoViejo * (ganancia/100 + 1)) * (1 - (descuento/100));
-                adapterComp.addComprobante(2, DateTime.Now.ToString("yyyy-MM-dd"), UserSettings.id, 0, monto);
+                adapterComp.addComprobante(2, DateTime.Now.ToString("yyyy-MM-dd"), UserSettings.id, (int)cbClientes.SelectedValue, monto);
                 this.Close();
             }
         }

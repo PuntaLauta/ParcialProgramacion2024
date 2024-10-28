@@ -16,8 +16,14 @@ namespace Empresa
         public compraProductos()
         {
             InitializeComponent();
+            this.FormClosing += Form1_FormClosing;
             Refresh();
         }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {

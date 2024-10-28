@@ -7,6 +7,11 @@ namespace Empresa
         public Login()
         {
             InitializeComponent();
+            this.FormClosing += Form1_FormClosing;
+        }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
