@@ -162,6 +162,14 @@ namespace Empresa
 {
 }
 
+namespace Empresa
+{
+}
+
+namespace Empresa
+{
+}
+
 namespace Empresa.dsEmpresaTableAdapters {
     
     

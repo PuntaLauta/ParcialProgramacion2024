@@ -13,6 +13,9 @@
     <Compile Update="compraDetalle.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="editarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="listaMovimientos.cs">
       <SubType>Form</SubType>
     </Compile>

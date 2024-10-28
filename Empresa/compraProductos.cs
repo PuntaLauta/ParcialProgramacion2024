@@ -46,10 +46,6 @@ namespace Empresa
             Refresh();
         }
 
-        private void compraProductos_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnVender_Click(object sender, EventArgs e)
         {
@@ -59,9 +55,13 @@ namespace Empresa
             Refresh();
         }
 
-        private void dgProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            int? codigo = getCodigo();
+            editarProducto editarProducto = new editarProducto(codigo);
+            editarProducto.ShowDialog();
+            Refresh();
         }
     }
 }

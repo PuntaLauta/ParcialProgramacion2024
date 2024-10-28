@@ -32,14 +32,15 @@
             dgProductos = new DataGridView();
             btnComprar = new Button();
             btnVender = new Button();
+            btnModificar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgProductos).BeginInit();
             SuspendLayout();
             // 
             // btnRegresar
             // 
-            btnRegresar.Location = new Point(720, 502);
+            btnRegresar.Location = new Point(840, 505);
             btnRegresar.Name = "btnRegresar";
-            btnRegresar.Size = new Size(138, 46);
+            btnRegresar.Size = new Size(161, 46);
             btnRegresar.TabIndex = 0;
             btnRegresar.Text = "Regresar";
             btnRegresar.UseVisualStyleBackColor = true;
@@ -56,11 +57,10 @@
             dgProductos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgProductos.Size = new Size(927, 403);
             dgProductos.TabIndex = 1;
-            dgProductos.CellContentClick += dgProductos_CellContentClick;
             // 
             // btnComprar
             // 
-            btnComprar.Location = new Point(231, 502);
+            btnComprar.Location = new Point(74, 502);
             btnComprar.Name = "btnComprar";
             btnComprar.Size = new Size(162, 47);
             btnComprar.TabIndex = 2;
@@ -70,26 +70,36 @@
             // 
             // btnVender
             // 
-            btnVender.Location = new Point(492, 502);
+            btnVender.Location = new Point(587, 504);
             btnVender.Name = "btnVender";
-            btnVender.Size = new Size(122, 47);
+            btnVender.Size = new Size(162, 47);
             btnVender.TabIndex = 3;
             btnVender.Text = "Vender";
             btnVender.UseVisualStyleBackColor = true;
             btnVender.Click += btnVender_Click;
+            // 
+            // btnModificar
+            // 
+            btnModificar.Location = new Point(339, 502);
+            btnModificar.Name = "btnModificar";
+            btnModificar.Size = new Size(162, 47);
+            btnModificar.TabIndex = 4;
+            btnModificar.Text = "Modificar";
+            btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // compraProductos
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1090, 597);
+            Controls.Add(btnModificar);
             Controls.Add(btnVender);
             Controls.Add(btnComprar);
             Controls.Add(dgProductos);
             Controls.Add(btnRegresar);
             Name = "compraProductos";
             Text = "Compras";
-            Load += compraProductos_Load;
             ((System.ComponentModel.ISupportInitialize)dgProductos).EndInit();
             ResumeLayout(false);
         }
@@ -100,5 +110,6 @@
         private DataGridView dgProductos;
         private Button btnComprar;
         private Button btnVender;
+        private Button btnModificar;
     }
 }

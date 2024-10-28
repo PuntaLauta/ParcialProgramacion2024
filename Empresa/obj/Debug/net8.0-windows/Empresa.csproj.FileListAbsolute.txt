@@ -30,3 +30,4 @@ C:\Users\punta\source\repos\Empresa\Empresa\obj\Debug\net8.0-windows\Empresa.com
 C:\Users\punta\source\repos\Empresa\Empresa\obj\Debug\net8.0-windows\Empresa.ventaProducto.resources
 C:\Users\punta\source\repos\Empresa\Empresa\obj\Debug\net8.0-windows\Empresa.listaMovimientos.resources
 C:\Users\punta\source\repos\Empresa\Empresa\obj\Debug\net8.0-windows\Empresa.Properties.Resources.resources
+C:\Users\punta\source\repos\Empresa\Empresa\obj\Debug\net8.0-windows\Empresa.editarProducto.resources
