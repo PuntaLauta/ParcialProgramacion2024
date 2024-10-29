@@ -84,6 +84,7 @@
             txtPrecio.Name = "txtPrecio";
             txtPrecio.Size = new Size(134, 27);
             txtPrecio.TabIndex = 4;
+            txtPrecio.ValueChanged += txtPrecio_ValueChanged;
             // 
             // txtPorcentaje
             // 
@@ -125,7 +126,7 @@
             Controls.Add(lblPrecio);
             Controls.Add(lblProducto);
             Name = "editarProducto";
-            Text = "editarProducto";
+            Text = "Editar precio";
             Load += editarProducto_Load;
             ((System.ComponentModel.ISupportInitialize)txtPrecio).EndInit();
             ((System.ComponentModel.ISupportInitialize)txtPorcentaje).EndInit();

@@ -49,5 +49,10 @@ namespace Empresa
                 this.Close();
             }
         }
+
+        private void txtPrecio_ValueChanged(object sender, EventArgs e)
+        {
+            txtPrecio.DecimalPlaces = 2;
+        }
     }
 }
